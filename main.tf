@@ -1,7 +1,8 @@
 
 provider "aws" {
-  region = "us-west-2"
-  profile = "swinkler"
+  region = "us-east-1"
+  profile = "rhjk"
+  #profile = "swinkler"
 }
 
 data "aws_region" "current" {}
